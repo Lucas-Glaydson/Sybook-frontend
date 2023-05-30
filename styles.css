@@ -1,0 +1,73 @@
+:root{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    /* border: 0; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    margin-top: 3rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #logo{
+    font-size: 3.5rem;
+}
+
+
+header #pages{
+    font-size: 1.6rem;
+}
+
+header #pages a{
+    margin-right: 3rem;
+}
+
+#about-us {
+    color: white;
+
+    background-color: black;
+    border-radius: 0.6rem;
+    height: 4rem;
+    width: 8rem;
+}
+
+main{
+    display: flex;
+}
+
+main img{
+    height: 60rem;
+    margin-left: 24rem;
+}
+
+main section {
+    margin: 5rem;
+}
+
+main section h1{
+    font-size: 7.5rem;
+    margin-bottom: 2.5rem;
+}
+
+section p{
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
