@@ -1,67 +1,59 @@
-:root {
+:root{
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-* {
+*{
     /* border: 0; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container {
+.container{
     height: 100vh;
     width: 100vw;
-    text-decoration: none;
 }
 
-.content {
-    margin-top: 2rem;
+.content{
+    margin-top: 3rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    text-decoration: none;
-
 }
 
-header {
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header #logo {
+header #logo{
     font-size: 3.5rem;
 }
 
 
-header #pages {
+header #pages{
     font-size: 1.6rem;
-    text-decoration: none;
-    color: black;
 }
 
-header #pages a {
+header #pages a{
     margin-right: 3rem;
-    text-decoration: none;
-    color: black;
-
 }
 
 #about-us {
     color: white;
-    text-decoration: none;
+
     background-color: black;
     border-radius: 0.6rem;
     height: 4rem;
     width: 8rem;
 }
 
-main {
+main{
     display: flex;
 }
 
-main img {
+main img{
     height: 60rem;
     margin-left: 24rem;
 }
@@ -70,54 +62,12 @@ main section {
     margin: 5rem;
 }
 
-main section h1 {
+main section h1{
     font-size: 7.5rem;
     margin-bottom: 2.5rem;
 }
 
-section p {
+section p{
     font-size: 1.8rem;
     margin-bottom: 3rem;
-}
-
-/* Teste de seach */
-
-body {
-    padding-top: 75px;
-}
-
-/*.seach-container {
-    width: 590px;
-    display: block;
-    margin: 0 auto;
-}*/
-
-input#search-bar {
-    margin: 0 auto;
-    width: 1000px;
-    height: 45px;
-    padding: 0 20px;
-    font-size: 1rem;
-    background-color: #E5BEEC;
-    border: none;
-    outline: none;
-    color: #000000;
-    border-radius: 10px 20px;
-
-}
-
-.search-icon {
-    position: relative;
-    float: left;
-    width: 20px;
-    height: 20px;
-    top: 15px;
-    left: 40px;
-}
-
-/*Div das categorias*/
-
-div {
-    padding-right: 2%;
-    display: inline-block;
 }
