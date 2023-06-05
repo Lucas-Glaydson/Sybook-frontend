@@ -16,9 +16,12 @@
 }
 
 .content{
-    margin-top: 3rem;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    grid-template-columns: repeat(9, 100px);
+    
 }
 
 header{
@@ -29,24 +32,30 @@ header{
 
 header #logo{
     font-size: 3.5rem;
+    text-decoration: none;
+    color: black;
 }
 
 
 header #pages{
     font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
 }
 
 header #pages a{
     margin-right: 3rem;
+    text-decoration: none;
+    color: black;
 }
 
 #about-us {
     color: white;
-
     background-color: black;
     border-radius: 0.6rem;
     height: 4rem;
     width: 8rem;
+    text-decoration: none;
 }
 
 main{
@@ -71,3 +80,123 @@ section p{
     font-size: 1.8rem;
     margin-bottom: 3rem;
 }
+
+input#search-bar {
+    margin: 0 auto;
+    width: 1000px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    background-color: #E5BEEC;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 10px;
+
+}
+
+.search-icon {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 40px;
+}
+
+div {
+    padding-right: 2%;
+    display: inline-block;
+}
+
+
+.Frame3 {
+    margin-top: 60px;
+    padding: 30px;
+    justify-content: center; /* Centraliza os produtos horizontalmente */
+    display: inline-block; 
+    
+}
+
+.Frame3 h3 {
+    margin-top: 60px;
+    font-size: 2rem;
+    width: 1000px;
+    margin-left: 80px;
+    
+}
+
+.categories {
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.titulo {
+    margin: 0 auto;
+    margin-left: 200px;
+    width: 500px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: #E5BEEC;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.destaque {
+    margin-top: 60px;
+    padding: 30px;
+    display: flex; /* Exibe os produtos em destaque em uma linha */
+    justify-content: center; /* Centraliza os produtos horizontalmente */
+    flex-wrap: wrap; /* Quebra para a próxima linha quando necessário */
+  }
+
+  
+  
+  
+  .produto {
+    flex: 0 0 200px; /* Define a largura fixa dos produtos em destaque */
+    margin-right: 40px;
+    margin-bottom: 20px; /* Adiciona espaço entre os produtos */
+    margin-top: 70px;
+  }
+  .produto img {
+    width: 200px;
+    height: 300px;
+  }
+  
+  .produto h3 {
+    margin: 5px 0;
+  }
+  .produto h2 {
+    margin: 5px 0;
+    margin-top: 10px;
+    
+  }
+  
+  .produto p {
+    color: #888;
+  }
+  
+  /*
+  .botao {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-top: 5px;
+  }*/
+ .avaliacao .estrelas {
+    color: gold; /* Define a cor das estrelas como dourado */
+    font-size: 24px; /* Define o tamanho das estrelas como 24 pixels */
+}
+
