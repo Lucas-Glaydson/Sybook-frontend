@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sybook</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="content">
+
+            <a id="logo" href="">Sy.</a>
+
+            <div id="search">
+
+                <input type="text" id="search-bar" placeholder="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="search-icon" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+
+            </div>
+
+            <div id="pages">
+                <a href="">Log In</a>
+                <a href="">Sign Up</a>
+            </div>
+
+
+            <a href="https://www.sycode.com.br/"><button id="about-us">About Us</button></a>
+
+        </header>
+        <section>
+            <div class="login">
+                <h2>Cadastro</h2>
+                <form action="processar_cadastro.php" method="POST">
+                    <div class="form-group">
+                        <label for="username">Usuário:</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                </form>
+        </section>
+</body>
