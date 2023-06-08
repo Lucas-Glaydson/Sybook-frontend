@@ -50,6 +50,7 @@ header #pages a {
 }
 
 #about-us {
+    margin-right: 20px;
     color: white;
     background-color: black;
     border-radius: 0.6rem;
@@ -79,6 +80,11 @@ main section h1 {
 section p {
     font-size: 1.8rem;
     margin-bottom: 3rem;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> loginANDregister
 }
 
 input#search-bar {
@@ -212,6 +218,7 @@ div {
 
 
 .login {
+<<<<<<< HEAD
     width: 300px;
     margin: 100px auto;
     margin-top: 100px;
@@ -219,6 +226,25 @@ div {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+=======
+    padding: auto;
+    width: 300px;
+    margin: 100px auto;
+    margin-top: 100px;
+    background-color: #00000014;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e5beec;
+}
+
+.register {
+    padding: auto;
+    width: 300px;
+    margin: 100px auto auto 41%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e5beec;
+>>>>>>> loginANDregister
 }
 
 h2 {
@@ -246,4 +272,31 @@ h2 {
     background-color: #917FB3;
     color: #fff;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+
+#sidebar{
+    padding: auto;
+    width: 100%;
+    margin: auto;
+    background-color: #00000014;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #e5beec;
+}
+.content{
+    background-color: #e5beec;
+    margin: 0px 0px 0px 0px;
+    border-radius: 30px;
+    height: 8%;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+#logo{
+    margin-left: 20px;
+    width: 10%;
+    height: 2%;
+>>>>>>> Stashed changes
+>>>>>>> loginANDregister
 }
