@@ -80,11 +80,6 @@ main section h1 {
 section p {
     font-size: 1.8rem;
     margin-bottom: 3rem;
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> loginANDregister
 }
 
 input#search-bar {
@@ -218,15 +213,6 @@ div {
 
 
 .login {
-<<<<<<< HEAD
-    width: 300px;
-    margin: 100px auto;
-    margin-top: 100px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-=======
     padding: auto;
     width: 300px;
     margin: 100px auto;
@@ -241,10 +227,10 @@ div {
     padding: auto;
     width: 300px;
     margin: 100px auto auto 41%;
+    background-color: #00000014;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #e5beec;
->>>>>>> loginANDregister
 }
 
 h2 {
@@ -272,8 +258,6 @@ h2 {
     background-color: #917FB3;
     color: #fff;
     cursor: pointer;
-<<<<<<< HEAD
-=======
 }
 
 #sidebar{
@@ -297,6 +281,4 @@ h2 {
     margin-left: 20px;
     width: 10%;
     height: 2%;
->>>>>>> Stashed changes
->>>>>>> loginANDregister
 }
