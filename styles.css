@@ -1,0 +1,240 @@
+:root {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 5px;
+    height: 100vh;
+    width: 100vw;     
+}
+
+.content {
+    margin-left: 5rem;
+    margin-right: 3rem;
+    text-decoration: none;
+    grid-template-columns: repeat(9, 100px);
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #logo {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+header #pages {
+    font-size: 1.6rem;  
+    margin-right: 5rem;
+}
+header #pages a {
+    font-size: 1.6rem;  
+    text-decoration: none;
+    color: black;
+    margin-right: 5rem;
+}
+
+#about-us {
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 0.6rem;
+    height: 4rem;
+    width: 8rem;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    height: 60rem;
+    margin-left: 24rem;
+}
+
+main section {
+    margin: 5rem;
+}
+
+main section h1 {
+    font-size: 7.5rem;
+    margin-bottom: 2.5rem;
+}
+
+section p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+input#search-bar {
+    margin: 0 auto;
+    width: 1000px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    background-color: #E5BEEC;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 10px;
+
+}
+
+.search-icon {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    left: 40px;
+}
+
+div {
+    padding-right: 2%;
+    display: inline-block;
+}
+
+
+.listbook {
+    margin-top: 60px;
+    padding: 30px;
+    justify-content: center; 
+    display: inline-block;
+}
+
+.listbook h3 {
+    margin-top: 60px;
+    font-size: 2rem;
+    width: 1000px;
+    margin-left: 80px;
+
+}
+
+.categories {
+    display: inline-block;
+    margin-left: 3rem;
+    font-size: 2rem;
+    margin: 1%;   
+}
+
+.titulo {
+    margin: 0 auto;
+    margin-left: 200px;
+    width: 500px;
+    height: 80px;
+    font-size: 2rem;
+    background-color: #E5BEEC;
+    border: none;
+    outline: none;
+    color: #000000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.destaque {
+    margin-top: 60px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.produto {
+    flex: 0 0 200px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.produto img {
+    width: 200px;
+    height: 300px;
+}
+
+.produto h3 {
+    margin: 5px 0;
+}
+
+.produto h2 {
+    margin: 5px 0;
+    margin-top: 10px;
+
+}
+
+.produto p {
+    color: #888;
+}
+
+.avaliacao .estrelas {
+    color: gold;
+    font-size: 24px;
+
+}
+
+
+.login {
+    width: 400px; /* Aumenta a largura do campo de login */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 100px;
+    background-color: #00000014;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e5beec;
+    display: block;
+    font-size: 1.5rem;
+}
+
+.register {
+    width: 400px; /* Aumenta a largura do campo de registro */
+    margin-top: 100px;
+    background-color: #00000014;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #e5beec;
+    font-size: 1.5rem;
+    margin-left: 700px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    margin-left: 10px;
+    display: block;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+.form-group input[type="submit"] {
+    background-color: #917FB3;
+    color: #fff;
+    cursor: pointer;
+
+}
